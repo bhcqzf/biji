@@ -45,7 +45,7 @@ select  distinct name from 表名;
 
 \>    \<
 
-```mymysql
+```mysql
 select * from 表名 where id > 10;
 select * from 表名 where id < 10;
 select * from 表名 where id = 10;
