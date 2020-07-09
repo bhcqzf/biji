@@ -10,5 +10,7 @@ Plugin 'davidhalter/jedi-vim'
 " python自动补全
 Plugin 'vim-scripts/indentpython.vim'
 " python自动缩进
+Plugin 'Yggdroot/indentLine'
+" 缩进指示线
 call vundle#end()
 filetype plugin indent on
