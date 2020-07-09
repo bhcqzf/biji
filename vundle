@@ -7,8 +7,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'davidhalter/jedi-vim'
-"自动补全
+" python自动补全
 Plugin 'vim-scripts/indentpython.vim'
-"python自动缩进
+" python自动缩进
 call vundle#end()
 filetype plugin indent on
