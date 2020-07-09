@@ -1,0 +1,10 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'vim-scripts/indentpython.vim'
+"python自动缩进
+call vundle#end()
+filetype plugin indent on
