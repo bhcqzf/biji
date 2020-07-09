@@ -7,7 +7,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'davidhalter/jedi-vim'
-" python自动补全
+" python模块补全 例如 os.
 Plugin 'vim-scripts/indentpython.vim'
 " python自动缩进
 Plugin 'Yggdroot/indentLine'
