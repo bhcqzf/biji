@@ -1,0 +1,11 @@
+
+break
+如果循环遇到break循环终止
+
+continue
+遇到continue进入下一个循环，当前循环结束
+
+for i in range(5):
+  if i == 3：
+    continue
+  print('233333')     #到3的时候，此据不执行，进入下一个循环
