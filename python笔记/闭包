@@ -1,0 +1,43 @@
+闭包概念：在一个内部函数中，对外部作用域的变量进行引用，(并且一般外部函数的返回值为内部函数)，那么内部函数就被认为是闭包。
+===============================================================================================================
+def startAt(x):
+	def incrementBy(y):
+		return x+y
+	return incrementBy
+
+
+a=startAt(1)
+print('function:',a)
+function: <function startAt.<locals>.incrementBy at 0x000001C881EC5040>
+
+print('result:',a(1))
+result: 2
+
+print(a.__name__)
+incrementBy
+
+==============================================================================================================
+
+常见问题：
+闭包无法修改外部函数的局部变量
+
+def outerFunc():
+	x = 0
+	def innerFunc():
+		x = 1
+		print('inner x ',x)
+	print('outer x before call inner:',x)
+	innerFunc()
+	print('outer x after call inner:',x)
+
+	
+>>> outerFunc()
+outer x before call inner: 0
+inner x  1
+outer x after call inner: 0
+
+
+==============================================================================================================
+
+
+
