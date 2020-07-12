@@ -1,0 +1,9 @@
+#下标
+name='laowang'
+
+取第一个字符  name[0]
+取最后一个字符  name[-1]
+
+#切片
+name[0:1]
+name[0:]
