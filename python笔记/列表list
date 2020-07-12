@@ -15,3 +15,5 @@ remove(value)  移除第一个遇到的值
 reverse()     反向
 sort()      排序 可与反向一起用
 
+
+可相加   name3 = name1 + name2
