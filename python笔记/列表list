@@ -19,3 +19,7 @@ sort()      排序 可与反向一起用
 可相加   name3 = name1 + name2
 修改内容 
 names[0]= 2222
+
+查询是否值在列表
+if 1 in names:
+  print(i)
