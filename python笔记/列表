@@ -9,6 +9,9 @@ append()   追加 只能加一个量
 count(1)    可以数出列表里1 的数量
 extend(列表或迭代)  把其他列表或迭代添加进来
 index()     某个值的索引
-
-
+insert(index, object)  在索引位置插入值
+pop([index])  移除索引位置的值并返回值
+remove(value)  移除第一个遇到的值
+reverse()     反向
+sort()      排序 可与反向一起用
 
