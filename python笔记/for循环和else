@@ -1,0 +1,7 @@
+for i in range(10):
+  print(i)
+else:
+  print('================')
+循环结束  else一定会执行
+
+除非for循环用到了else  for循环被打破
