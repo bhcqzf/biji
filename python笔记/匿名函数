@@ -1,0 +1,10 @@
+>>> lambda x:x*2+1
+<function <lambda> at 0x000001FA500BBA60>
+>>> g=lambda x:x*2+1
+>>> g(5)
+11
+
+
+#优势：不用取名字
+
+格式  lambda  变量 : 公式
