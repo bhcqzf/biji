@@ -1,3 +1,10 @@
 #递归两个条件
 #1.自己调用自己
 #2.要有停止的条件
+
+
+#算阶乘
+def getnum(num):
+    if num == 1:
+        return num
+    return num * getnum(num - 1)
