@@ -9,3 +9,15 @@ def add(a,b,*args):
 def a(**kargs):
   print(kargs)
 #这里传入的是字典
+
+
+不带=传参    传给元组
+
+带=传参      传给字典
+
+def add(a,b,*args,**kargs):
+  print(a)
+  print(b)
+  print(args)
+  print(kargs)
+add(1,2,3,4,bai=22,bai1=33)
