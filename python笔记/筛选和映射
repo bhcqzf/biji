@@ -1,0 +1,10 @@
+filter(function or None, iterable)
+
+#第一个形参可为函数或None  后面是一个可迭代值
+#返回符合前面函数为True的值，或直接返回True
+
+
+ map(func, *iterables) --> map object
+ 
+ #映射
+ #无论结果如何，都返回
