@@ -1,0 +1,11 @@
+def add(a,b,*args):
+  result = a+b
+  for i in args:
+    result+=i
+  return result
+#这里的*args传入的是元组
+
+
+def a(**kargs):
+  print(kargs)
+#这里传入的是字典
