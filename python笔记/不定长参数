@@ -21,3 +21,11 @@ def add(a,b,*args,**kargs):
   print(args)
   print(kargs)
 add(1,2,3,4,bai=22,bai1=33)
+
+
+传入的是变量
+A=[1,2,3,4]
+B={'a':1,'b':2}
+直接传入会都传给args
+
+应该add(1,2,*A,**B)
