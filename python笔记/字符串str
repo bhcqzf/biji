@@ -25,5 +25,12 @@ splitlines(self, /, keepends=False)   一个文章按行分割
 title(self, /)                        每个字母大写
 S.startswith(prefix[, start[, end]]) -> bool 以什么开头
 S.endswith(suffix[, start[, end]]) -> bool  以什么结尾
+upper()         大写
+lower()         小写
+ljust(self, width, fillchar=' ', /) 左对齐
+rjust(self, width, fillchar=' ', /) 右对齐
+lstrip(self, chars=None, /)   左删除
+rstrip(self, chars=None, /)   右删除
+strip(self, chars=None, /)    左右删除
 
 
