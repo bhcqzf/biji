@@ -11,3 +11,10 @@
 
 
 注意：自带return
+
+l2=[{'name':'laowang','age':22},{'name':'laoli','age':33}]
+>>> l2.sort(key=lambda x : x['name'])
+>>> l2
+[{'name': 'laoli', 'age': 33}, {'name': 'laowang', 'age': 22}]
+
+注：匿名函数可以为字典排序
