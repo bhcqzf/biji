@@ -17,3 +17,13 @@ center(width, fillchar=' ', /)    字符居中，可以用字符填充
 encode(self, /, encoding='utf-8', errors='strict')  编码
 S.find(sub[, start[, end]]) -> int   查找，返回索引
 S.index(sub[, start[, end]]) -> int  索引，找不到会报错
+S.rindex(sub[, start[, end]]) -> int 右侧索引
+S.count(sub[, start[, end]]) -> int  计算
+replace(self, old, new, count=-1, /)  替换 默认替换所有
+split(self, /, sep=None, maxsplit=-1) 切割，默认切割次数无限
+splitlines(self, /, keepends=False)   一个文章按行分割
+title(self, /)                        每个字母大写
+S.startswith(prefix[, start[, end]]) -> bool 以什么开头
+S.endswith(suffix[, start[, end]]) -> bool  以什么结尾
+
+
