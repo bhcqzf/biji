@@ -32,5 +32,8 @@ rjust(self, width, fillchar=' ', /) 右对齐
 lstrip(self, chars=None, /)   左删除
 rstrip(self, chars=None, /)   右删除
 strip(self, chars=None, /)    左右删除
+partition(self, sep, /)       从中间分开
+rpartition(self, sep, /)      从右边找单词，之后分开
+join(self, iterable, /)       字符加入可迭代内容中
 
 
