@@ -1,0 +1,18 @@
+#下标
+name='laowang'
+
+取第一个字符  name[0]
+取最后一个字符  name[-1]
+
+#切片
+name[0:1]
+name[0:]
+
+name[0::2]  第三项是步长 
+从前往后是   name[-1::-1]  从前往后      name[::-1]
+
+capitalize(self, /)   首字母大写
+casefold(self, /)   字母变小写，不限于英文
+center(width, fillchar=' ', /)    字符居中，可以用字符填充
+encode(self, /, encoding='utf-8', errors='strict')  编码
+S.find(sub[, start[, end]]) -> int   查找，返回索引
