@@ -15,3 +15,5 @@ a=a+b
 b=a-b
 a=a-b
 
+#交换
+a,b=b,a
