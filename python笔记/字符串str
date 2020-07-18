@@ -16,6 +16,7 @@ casefold(self, /)   字母变小写，不限于英文
 center(width, fillchar=' ', /)    字符居中，可以用字符填充
 encode(self, /, encoding='utf-8', errors='strict')  编码
 S.find(sub[, start[, end]]) -> int   查找，返回索引
+S.rfind(sub[, start[, end]]) -> int  右侧查找
 S.index(sub[, start[, end]]) -> int  索引，找不到会报错
 S.rindex(sub[, start[, end]]) -> int 右侧索引
 S.count(sub[, start[, end]]) -> int  计算
