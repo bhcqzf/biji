@@ -22,3 +22,9 @@ a=np.ones((3,4),dtype=int)*2    #变成2
 
 #空
 b=np.empty((3,4))
+
+
+#定义序列
+a=np.arange(10)
+#改变形状
+a=np.arange(10).reshpe((2,5))
