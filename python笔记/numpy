@@ -28,3 +28,6 @@ b=np.empty((3,4))
 a=np.arange(10)
 #改变形状
 a=np.arange(10).reshpe((2,5))
+
+#分段
+a=np.linspace(1,10,10)    起始，结尾，10段
