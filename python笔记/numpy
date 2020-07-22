@@ -1,0 +1,12 @@
+import numpy as np
+#导入矩阵
+array = np.array([[]1,2,3],[4,5,6])
+
+属性
+#维度
+array.ndim
+#形状
+array.shape
+#大小
+array.size
+
