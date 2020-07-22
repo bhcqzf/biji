@@ -19,3 +19,6 @@ a=np.zeros((3,4))
 #定义1矩阵
 a=np.ones((3,4),dtype=int)
 a=np.ones((3,4),dtype=int)*2    #变成2
+
+#空
+b=np.empty((3,4))
