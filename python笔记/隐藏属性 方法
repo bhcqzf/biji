@@ -1,0 +1,11 @@
+class Dog:
+	__age=20
+  
+dog._Dog__age
+20
+
+class Dog():
+	def __age(self):
+		print('000000000000')
+dog._Dog__age()
+000000000000
