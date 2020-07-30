@@ -15,6 +15,11 @@ class Dog(animals):
 class xiaotq(Dog):
 	def bark(self):
 		print('狂叫')
-		Dog.bark(self)
+		Dog.bark(self)	
 ==================================================哮天犬继承了Dog类并重写了bark方法=========================================
 注意调用上层方法的格式     Dog(这是类名).bark(方法名)   (self)    self不要忘，不然报错
+
+
+
+第二种方法
+super().bark()
