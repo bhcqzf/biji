@@ -1,0 +1,40 @@
+=============类属性=============计数=======================
+>>> class Tool(object):
+	num = 0
+	def __init__(self,new_num):
+		self.name=new_num
+		Tool.num+=1
+		
+>>> tool1=Tool('铁锹')
+>>> Tool.num
+1
+>>> tool2=Tool('铁锹1')
+>>> Tool.num
+2
+
+=============类方法=======================================
+>>> class A(object):
+	num = 0
+	@classmethod
+	def add_num(cls):
+		cls.num+=1
+
+注意这里     声明类方法   @classmethod
+
+
++++++++++++++++++++++++++调用++++++++++++++++++++++++++++++
+>>> a=A()
+>>> a.add_num()
+>>> a.num
+1
+>>> a.add_num()
+>>> a.num
+2
+>>> a.add_num()
+>>> a.num
+3
+>>> A.add_num()
+>>> A.num
+4
+
+可以用类直接调用  也可以用对象调用
