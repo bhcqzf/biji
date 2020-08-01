@@ -38,3 +38,18 @@
 4
 
 可以用类直接调用  也可以用对象调用
+======================静态方法===========================
+>>> class A(object):
+	num = 0
+	@classmethod
+	def add_num(cls):
+		cls.num+=1
+	@staticmethod
+	def print():
+		print('hello world')
+
+		
+>>> A.print()
+hello world
+
+静态方法与整个类无关
