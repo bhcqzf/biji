@@ -27,3 +27,7 @@ test2
 >>> c.test()
 Base
   
+++++++++++++++++++++++++++++++++注意++++++++++++++++++++++++++++++++++++++++
+继承的顺序   类名.__mro__
+>>> print(C.__mro__)
+(<class '__main__.C'>, <class '__main__.A'>, <class '__main__.B'>, <class '__main__.Base'>, <class 'object'>)
