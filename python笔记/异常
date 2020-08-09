@@ -24,3 +24,6 @@ print('1111111111')
 
 else
 只有没有异常才会执行
+
+except Exception as e: print(e) 
+显示错误内容
