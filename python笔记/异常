@@ -1,0 +1,26 @@
+try:
+    #print(num)
+    #open('xxxx')
+    pass
+
+except (FileNotFoundError):
+    print('异常')
+except:
+    print('又异常')
+else:
+    print('没有异常才执行')
+print('1111111111')
+
+
+======================================================
+如果多个异常
+可以放在元组里
+比如except (FileNotFoundError,NameError)
+
+也可以在下面继续写一个except
+
+如果上面except中没有相对应的异常
+用空的except可以接受
+
+else
+只有没有异常才会执行
