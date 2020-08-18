@@ -1,0 +1,14 @@
+1、更改配置后，重新加载
+systemctl daemon-reload
+
+2、启动etcd服务
+systemctl start etcd.service
+
+3、停止etcd服务
+systemctl stop etcd.service
+
+4、重启etcd服务
+systemctl restart etcd.service
+
+5、查看etcd服务状态
+systemctl status etcd.service
