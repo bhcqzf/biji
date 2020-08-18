@@ -1,0 +1,22 @@
+1、更改配置文件，重新加载
+systemctl daemon-reload
+
+2、启动master相关组件
+systemctl start kube-apiserver
+systemctl start kube-controller-manager
+systemctl start kube-scheduler
+
+3、停止master相关组件
+systemctl stop kube-apiserver
+systemctl stop kube-controller-manager
+systemctl stop kube-scheduler
+
+4、重启master相关组件
+systemctl restart kube-apiserver
+systemctl restart kube-controller-manager
+systemctl restart kube-scheduler
+
+5、查看master相关组件状态
+systemctl status kube-apiserver
+systemctl status kube-controller-manager
+systemctl status kube-scheduler
