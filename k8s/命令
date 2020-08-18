@@ -1,0 +1,28 @@
+kubectl get pods
+
+　　按selector名来查找pod
+
+kubectl get pod --selector name=redis
+　　　　2、查看集群信息
+kubectl cluster-info
+　　　　3、查看各组件信息
+kubectl -s http://localhost:8080 get componentstatuses
+　　　　4、查看pods所在的运行节点
+kubectl get pods -o wide
+　　　　5、查看pods定义的详细信息
+kubectl get pods -o yaml
+　　　　6、查看运行的pod的环境变量
+kubectl exec pod名 env
+　　　　7、查看指定pod的日志
+kubectl logs -f pods/heapster-xxxxx -n kube-system
+　　3、操作类命令
+　　　　1、创建资源
+kubectl create -f 文件名.yaml
+　　　　2、重建资源
+kubectl replace -f 文件名  [--force]
+ 　　　　3、删除资源
+kubectl delete -f 文件名
+kubectl delete pod pod名
+kubectl delete rc rc名
+kubectl delete service service名
+kubectl delete pod --all
