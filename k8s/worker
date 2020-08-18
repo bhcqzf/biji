@@ -1,0 +1,22 @@
+1、更改配置后，重启加载
+systemctl daemon-reload
+
+2、启动worker端相关组件
+systemctl start kube-proxy
+systemctl start docker
+systemctl start kubelet
+
+3、停止worker端相关组件
+systemctl stop kube-proxy
+systemctl stop docker
+systemctl stop kubelet
+
+4、重启worker端相关组件
+systemctl restart kube-proxy
+systemctl restart docker
+systemctl restart kubelet
+
+5、查看worker端相关组件状态
+systemctl status kube-proxy
+systemctl status docker
+systemctl status kubelet
