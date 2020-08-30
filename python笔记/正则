@@ -1,0 +1,7 @@
+re.match()  匹配句首 匹配成功可以 .span()
+re.search()  全局搜索
+re.findall() 搜索并列出列表
+re.sub()  替换 sub(pattern, repl, string, count=0, flags=0)    正则,替换内容，变量   默认count=0 全局替换
+默认不匹配\n
+可以后面加参数
+re.match(,,re.S)
