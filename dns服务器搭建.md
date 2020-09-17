@@ -58,7 +58,7 @@ yum -y install bind bind-chroot bind-libs bind-utils
 ```
 
 $TTL 1D
-@       IN SOA  dns root (
+@       IN SOA  dns root (      ////////////////////////////删除///////////////////////////注意，这里要有两个，一个会报错    这里是dns和root
                                         0       ; serial
                                         1D      ; refresh
                                         1H      ; retry
