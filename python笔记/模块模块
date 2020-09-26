@@ -18,4 +18,14 @@ import 文件夹名.模块名
 注：文件夹和模块不同名
 
 
+导入模块的方法
+import os
 
+from os import system
+
+
+from os import *
+这种尽量少用，容易冲突
+
+
+import time as tt
